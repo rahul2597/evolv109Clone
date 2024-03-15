@@ -1,0 +1,17 @@
+.radial{
+    background: radial-gradient(circle at 15% 35%,#1c0c31,black,black,black);
+    background-size: 200%;
+}
+
+.dropdown{
+   
+   width:40vw;
+    display: none;
+    
+}
+
+.recruit:hover .dropdown{
+   
+    
+display: block;
+}
