@@ -11,25 +11,22 @@ import Projectdeliver from "../Components/Projectdeliver";
 
 const Home = () => {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Header />
-      <div className="flex  justify-center items-center space-x-20 pt-40 pb-20">
-        <div className="flex justify-center items-center ">
-          <div>
-            <h1 className="text-white text-[3rem] font-semibold">
-              Unlock Your <br /> Online Potential
-            </h1>
-            <h4 className="text-slate-400 mt-3">
-              Simplify, Amplify, Succeed : Evolv109 Empowers Your Digital
-              Journey
-            </h4>
-            <div className="flex space-x-4 mt-3 ">
-              <div className="flex justify-center items-center px-5 py-2 rounded-full bg-red-500">
-                <h2>Our Services</h2>
-              </div>
-              <div className="flex justify-center items-center px-6 py-2 rounded-full text-white bg-slate-500 ">
-                <h2> Contuct Us</h2>
-              </div>
+      <div className="flex flex-col-reverse sm:flex-row w-screen justify-center items-center space-x-20 pt-40 pb-20">
+        <div className="flex flex-col justify-center items-center">
+          <h1 className="text-white text-[3rem] font-semibold">
+            Unlock Your <br /> Online Potential
+          </h1>
+          <h4 className="text-slate-400 mt-3">
+            Simplify, Amplify, Succeed : Evolv109 Empowers Your Digital Journey
+          </h4>
+          <div className="flex space-x-4 mt-3 ">
+            <div className="flex justify-center items-center px-5 py-2 rounded-full bg-red-500">
+              <h2>Our Services</h2>
+            </div>
+            <div className="flex justify-center items-center px-6 py-2 rounded-full text-white bg-slate-500 ">
+              <h2> Contuct Us</h2>
             </div>
           </div>
         </div>
@@ -79,7 +76,7 @@ const Home = () => {
       <Testimonia />
       <Containtblog />
       <Footer />
-    </>
+    </div>
   );
 };
 

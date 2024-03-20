@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-black w-full h-full ">
+      <div className="bg-black  h-full w-screen">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />

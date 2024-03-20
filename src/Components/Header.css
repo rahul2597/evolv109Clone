@@ -1,0 +1,15 @@
+
+
+@media (min-width:1000px) and (max-width:1200px) {
+    .main-header{
+        flex-direction: column;
+    }    
+    .main-header-icon{
+        justify-content: flex-start ;
+    }
+}
+
+
+.link-section{
+    display: none;
+}
