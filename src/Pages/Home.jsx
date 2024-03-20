@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="overflow-x-hidden">
       <Header />
-      <div className="flex flex-col-reverse sm:flex-row w-screen justify-center items-center space-x-20 pt-40 pb-20">
+      <div className="flex overflow-x-hidden flex-col-reverse sm:flex-row w-screen justify-center items-center space-x-20 pt-40 pb-20">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-white text-[3rem] font-semibold">
             Unlock Your <br /> Online Potential

@@ -13,7 +13,7 @@ export const Homecontent = () => {
   ];
   return (
     <>
-      <div className="item-center flex justify-center">
+      <div className="item-center flex flex-col justify-center">
         <div className="border-slate-800 border-[0.02px] rounded-2xl px-8 py-3 flex justify-center items-center text-slate-500">
           <h1>TECHNOLOGIES WE USE</h1>
         </div>
@@ -25,8 +25,8 @@ export const Homecontent = () => {
           })}
         </marquee>
       </div>
-      <div className=" flex justify-evenly items-center space-x-16">
-        <div className="flex flex-col space-y-6 justify-start mt-64 ">
+      <div className=" flex flex-col sm:flex-row flex-wrap justify-evenly items-center space-x-16">
+        <div className="flex space-y-6 justify-start mt-64 ">
           <div className="rounded-2xl border-[0.1px] border-slate-700 text-white w-24 flex items-center justify-center px-3 py-1 ">
             <h6 className="text-sm text-slate-600">Service</h6>
           </div>

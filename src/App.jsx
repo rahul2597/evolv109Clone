@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-black  h-full w-screen">
+      <div className="bg-black overflow-x-hidden h-full max-w-screen">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />

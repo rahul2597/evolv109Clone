@@ -11,8 +11,7 @@ const Header = () => {
       <div className="flex justify-center items-center">
         <div className="flex main-header">
           <div className="flex main-header-icon mt-2 relative">
-      
-            {" "}
+            <div></div>{" "}
             <img
               className="evolve-img w-[9rem] h-[2.5rem] "
               src="https://evolv109.com/wp-content/uploads/2023/05/evolv109_white-1-1.png"
@@ -21,7 +20,6 @@ const Header = () => {
             <TfiMenu className="text-slate-200 text-[3rem] md:hidden space-x-72" />
           </div>
           <div className="link-section ml-6 items-center space-x-8 hidden md:flex md:w-full">
-          
             <Link to="/">
               <div className="flex items-center text-sm">
                 <h1>Home</h1>

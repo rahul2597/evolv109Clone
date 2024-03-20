@@ -13,7 +13,7 @@ const Homecontent = () => {
   ];
   return (
     <>
-      <div className="item-center flex justify-center">
+      <div className="item-center flex flex-col justify-center">
         <div className="border-slate-800 border-[0.02px] rounded-2xl px-8 py-3 flex justify-center items-center text-slate-500">
           <h1>TECHNOLOGIES WE USE</h1>
         </div>
@@ -25,7 +25,7 @@ const Homecontent = () => {
           })}
         </marquee>
       </div>
-      <div className=" flex justify-evenly items-center space-x-16">
+      <div className=" flex justify-evenly items-center space-x-16 flex-col sm:flex-row flex-wrap">
         <div className="flex flex-col space-y-6 justify-start mt-64 ">
           <div className="rounded-2xl border-[0.1px] border-slate-700 text-white w-24 flex items-center justify-center px-3 py-1 ">
             <h6 className="text-sm text-slate-600">Service</h6>
@@ -42,7 +42,7 @@ const Homecontent = () => {
           </div>
         </div>
         <div className="flex mt-10 space-x-8 mr-80 ">
-          <div className="flex-flex-col space-y-7 mt-10">
+          <div className="flex-flex-col flex-wrap space-y-7 mt-10">
             <Servicesoffer
               img={"https://evolv109.com/wp-content/uploads/2023/03/UIUX.png"}
               content={"UX designers employ various"}
